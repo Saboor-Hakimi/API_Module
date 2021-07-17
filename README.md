@@ -8,7 +8,7 @@ In /var/www/html/app/code
 <code>rm -rf API_Module/</code><br>
 <code>cd ../..</code>
 <br>
-<code>/bin/magento setup:upgrade</code>
+<code>bin/magento setup:upgrade</code>
 <br>
-<code>/bin/magento setup:di:compile</code>
-
+<code>bin/magento setup:di:compile</code><br>
+<code>bin/magento cache:flush</code>
