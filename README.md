@@ -11,4 +11,6 @@ In /var/www/html/app/code
 <code>bin/magento setup:upgrade</code>
 <br>
 <code>bin/magento setup:di:compile</code><br>
+<code>bin/magento deploy:mode:set developer</code><br>
+<code>bin/magento setup:static-content:deploy -f</code><br>
 <code>bin/magento cache:flush</code>
