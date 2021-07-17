@@ -7,6 +7,6 @@ In /var/www/html/app/code
 <br>
 <code>cd ../..</code>
 <br>
-<code>bin/magento setup:upgrade</code>
+<code>/bin/magento setup:upgrade</code>
 <br>
-<code>../../bin/magento setup:di:compile</code>
+<code>/bin/magento setup:di:compile</code>
