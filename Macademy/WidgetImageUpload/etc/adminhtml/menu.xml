@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Mastering_SampleModule::menu" title="Aseel App Banner Image"
+             module="Macademy_WidgetImageUpload" resource="Mastering_SampleModule::imagechoose"
+             translate="title" sortOrder="100" action="imagechoose"/>
+        <add id="Mastering_SampleModule::menu_item" title="Image Choose"
+             module="Macademy_WidgetImageUpload" resource="Mastering_SampleModule::imagechoose"
+             translate="title" sortOrder="200" action="imagechoose/webpage/index" parent="Mastering_SampleModule::menu"/>
+    </menu>
+</config>
